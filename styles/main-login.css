@@ -1,0 +1,62 @@
+body {
+    background-image: url(/images/background.jpg);
+    background-size: auto;
+}
+
+.bloco {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 10px 5px 20px black;
+    vertical-align: auto;
+    text-align: center;
+}
+
+h1{
+    font-family: monospace;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.btn{
+    border: 0;
+    padding: 10px;
+    width: 200px;
+    height: 50px;
+    display: inline-block;
+    margin: 10px;
+    border-radius: 4px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.btn:hover {
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+
+.labelinput {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 10px;
+}
+
+.campoinput { 
+    border: 0;
+    border-bottom: 2px solid gray;
+}
+
+.boxinput1 {
+    margin: 15px;
+}
+
+.boxinput2 {
+    margin: 15px
+}
+
+#erro {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+}

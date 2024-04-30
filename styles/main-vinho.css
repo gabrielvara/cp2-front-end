@@ -1,0 +1,254 @@
+* {
+    padding:0;
+    margin:0px 50px;
+    vertical-align:baseline;
+    list-style:none;
+    border:0
+}
+
+
+.navbar{
+    background-color: white;
+    max-height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.navbar a{
+    margin-left:40px ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    font-size: large;
+    color: black;
+    text-decoration: none;
+    
+}
+
+.navbar img {
+    width: 50px;
+}
+
+.navbar img:hover {
+    width: 55px;
+    animation-name: animacaocarrinho;
+    animation-duration: 1s;
+}
+
+@keyframes animacaocarrinho {
+    from {
+        width: 50px;
+    }
+    to {
+        width: 55px;
+    }
+}
+
+.navbar a:hover{
+    font-size: larger;
+    color: #56070c;
+    animation-name: hover-navbar;
+    animation-duration: 1s;
+}
+
+@keyframes hover-navbar {
+    from {
+        font-size: large;
+    }
+    to {
+        font-size: larger;
+        color: #56070c;
+    }
+}
+
+.navbar h1{
+    margin-right: 20px;
+    font-size: 60px;
+    padding-left: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-image: linear-gradient(to right, #56070c,#170000);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.pre-banner{
+    background-color: #56070c;
+    width: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    color: white;
+    font-size: 20px;
+    height: 50px;
+    margin: 10px 50px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-div {
+    background-color: #F0F0F0;
+    width: auto;
+    border-radius: 20px;
+    padding: 80px;
+    box-shadow: 0px 0px 66px -41px rgba(0,0,0,0.75);
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.pre-info {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #727272;
+    margin-bottom: 5px;
+    padding-left: 5px;
+}
+
+.info {
+    align-self: flex-start;
+    display: flex;
+    flex-direction: column;
+}
+
+.titulo {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 4vb;
+    padding-top: 20px;
+
+}
+
+.valorvinho {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 6vb;
+    padding: 70px;
+    font-weight: 400;
+    color: #56070c;
+}
+
+.qtd, .cupomdesconto{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#inputqtd, #inputcupom{
+    outline: none;
+    padding: 15px;
+    border-radius: 30px;
+}
+
+.botaocomprar {
+    background-color: green;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 3vb;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 25px;
+    box-shadow: 0px 10px 81px -28px rgba(0,0,0,0.75);
+}
+
+.botaocomprar, .botaosugestao {
+    cursor: pointer;
+}
+
+.botaosugestao {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 10px;
+    background-color: #56070c;
+    color: rgb(182, 182, 182);
+    text-align: center;
+    align-self: center;
+    padding: 1vb;
+    border-radius: 5px;
+}
+
+.sec-main {
+    margin-top: 50px;
+    background-color: #56070c;
+    color: white;
+    width: auto;
+    border-radius: 20px;
+    padding: 50px;
+    box-shadow: 0px 0px 66px -41px rgba(0,0,0,0.75);
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+    align-items: center;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+.main-footer {
+    background-color: #56070c;
+    margin-top: 80px;
+    color: white;
+    width: auto;
+    height: auto;
+    border-radius: 20px;
+    padding: 25px;
+    box-shadow: 0px 0px 66px -41px rgba(0,0,0,0.75);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.copyright{
+    margin: 10px;
+    font-size: small;
+    color: gray;
+}
+
+.links {
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.links a {
+    color: white;
+    text-decoration: none;
+}
+
+.links a:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+.links2 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+}
+
+.links2 a {
+    color: white;
+    text-decoration: none;
+    margin: 5px;
+}
+
+.links2 a:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+.botaoquantidade {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #56070c;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 1vb;
+    border-radius: 5px;
+    color: rgb(182, 182, 182);
+}

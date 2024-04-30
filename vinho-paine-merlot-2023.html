@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/main-vinho.css">
+    <link rel="shortcut icon" href="/images/favicon-2/favicon.ico" type="image/x-icon">
+    <title>Vinheiria Agnello</title>
+</head>
+<body>
+    <nav class="navbar" id="navbar">
+        <h1>Agnello</h1>
+        <a href="index.html#navbar">Home</a>
+        <a href="index.html#loja">Nossos Vinhos</a>
+        <a href="index.html#contato">Contato</a>
+        <a href="index.html#sugestaovinhos">Sugestões</a>
+        <img id="imgcarrinho" src="/images/carrinho.png" alt="Carrinho">
+    </nav>
+    <div class="pre-banner">Agnello a sua certeza de uma boa escolha!</div>
+        <p class="pre-info">Vinheiria Agnello/Paine Merlot 2023</p>
+        <div class="main-div">
+            <div class="main-img-vinho">
+                <img src="/images/vinhos/vinho-2.png" alt="Vinho Paine Merlot 2023">
+            </div>
+            <div class="info">
+                <h1 class="titulo">Paine Merlot 2023</h1>
+                <h2 class="valorvinho" id="valorTotalVinho">R$74.90</h2>
+                <div class="qtd">
+                <label for="inputqtd">Quantidade:</label>
+                <input type="number" id="inputqtd">
+                <button class="botaoquantidade" id="botaoqtd" onclick="atualizarpreco()">Atualizar Preço</button>
+                </div>
+                <div class="cupomdesconto">
+                    <label for="cupom">Cupom de desconto:</label>
+                    <input type="text" id="inputcupom">
+                    <button class="botaoquantidade" id="botaoqtd" onclick="aplicarcupom()">Aplicar Cupom</button>
+                    <p class="paragrafo" id="paragrafocupom"></p>
+                </div>
+                <button class="botaocomprar" onclick="comprarvinho()">COMPRAR</button>
+                <button class="botaosugestao" onclick="sugestao()">Ver sugestoes de combinaçao</button>
+            </div>
+        </div>
+        <div class="sec-main">
+            <h1>Comentário do Sommelier</h1>
+                <p>Um Merlot elaborado no Vale Central chileno pela vinícola Viñedos y Frutales (VyF), uma das TOP 10 maiores vinícolas chilenas em exportações, e também uma das primeiras vinícolas chilenas a receber o certificado de Vinícola Sustentável de Vinhos do Chile. A linha Paine tem em seu nome uma homenagem ao Paine National Park que engloba florestas antigas, montanhas, glaciares, lagos e rios na Patagônia chilena. Com um estilo fácil de beber, este exemplar agrada com facilidade, é uma excelente pedida para quem está entrando no mundo do vinho, ou para quem quer algo mais descomplicado para o dia a dia. Aproveite para harmonizar com seus bons momentos e com refeições diárias!</p>
+        </div>  
+        <footer class="main-footer">
+            <div class="links2">
+                <a href="#navbar">Home</a>
+                <a href="#loja"">Nossos Vinhos</a>
+                <a href="#contato">Contato</a>
+                </div>
+            <div class="links">
+            <a href="https://www.linkedin.com/in/gabriel-vara/">Linkedin</a> 
+            <p>|</p>
+            <a href="https://github.com/gabrielvara">Github</a>
+            </div>
+            <div class="copyright">
+            <p>Vinheiria Agnello</p>
+            <p>©Copyright Todos os Direitos Reservados</p>
+            </div>
+        </footer>
+        <script src="script.js"></script>
+</body>
+</html>
